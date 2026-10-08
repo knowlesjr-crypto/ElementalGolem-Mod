@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="elementalgolems"
+version="1.0.0"
+displayName="Elemental Golems"
+logoFile="icon.png"
+authors="KnowlesJR"
+description='''
+Giant elemental golem bosses with fire, water, earth, wind, and storm powers.
+'''
