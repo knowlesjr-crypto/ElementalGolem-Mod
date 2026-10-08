@@ -12,7 +12,8 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, ElementalGolems.MODID);
 
-    public static final RegistryObject<EntityType<ElementalGolemBoss>> ELEMENTAL_GOLEM = ENTITY_TYPES.register("elemental_golem",
+    public static final RegistryObject<EntityType<ElementalGolemBoss>> ELEMENTAL_GOLEM = ENTITY_TYPES.register(
+            "elemental_golem",
             () -> EntityType.Builder.<ElementalGolemBoss>of(ElementalGolemBoss::new, MobCategory.MONSTER)
                     .sized(2.2F, 3.4F)
                     .fireImmune()

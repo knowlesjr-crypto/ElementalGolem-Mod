@@ -1,17 +1,21 @@
 # Elemental Golems
 
-A Forge mod for Minecraft 1.20.1 featuring giant elemental golem bosses with fire, water, earth, and storm powers.
+A Forge mod for Minecraft 1.20.1 featuring giant elemental golem bosses with fire, water, earth, wind, and storm powers.
 
 ## Features
-- Giant boss golems with elemental abilities
-- Fire, water, earth, wind, and storm variants
-- Custom boss logic and texture hooks
-- Forge-ready project scaffold for expansion
+- Giant elemental boss golems
+- Fire, water, earth, wind, and storm elemental variants
+- Special passive and active abilities
+- Forge-ready structure for expansion
 
-## Quick start
-1. Install Java 17+
-2. Run `gradle idea` or `gradle eclipse` if you want an IDE project
-3. Use Forge's dev environment to run the client/server
+## Requirements
+- Java 17+
+- Minecraft Forge 1.20.1
+
+## Run
+1. Open the project in your IDE.
+2. Run the Gradle task `genIntellijRuns` or use the generated run configs.
+3. Launch the client or server with Forge.
 
 ## Notes
-This repository is intentionally set up as a strong starting point for a boss-focused mod. You can expand the behavior, loot table, animation, and custom art from here.
+This project is built as a strong starting point for a boss-focused Minecraft mod. You can expand the combat logic, loot tables, textures, and structures from here.

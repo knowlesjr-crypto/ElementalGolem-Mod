@@ -1,10 +1,10 @@
 package com.knowlesjr.elementalgolems.entity;
 
 import com.knowlesjr.elementalgolems.ElementalGolems;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.IronGolemRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.animal.IronGolem;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 public class ElementalGolemRenderer extends IronGolemRenderer {
     public ElementalGolemRenderer(EntityRendererProvider.Context context) {

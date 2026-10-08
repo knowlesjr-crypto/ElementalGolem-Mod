@@ -1,7 +1,4 @@
 {
-  "item.elementalgolems.elemental_golem": "Elemental Golem",
   "entity.elementalgolems.elemental_golem": "Elemental Golem",
-  "death.attack.fire": "%1$s was scorched by an elemental boss",
-  "death.attack.wind": "%1$s was torn apart by a storm golem",
-  "death.attack.earth": "%1$s was crushed beneath a titan of stone"
+  "itemGroup.elementalgolems": "Elemental Golems"
 }
